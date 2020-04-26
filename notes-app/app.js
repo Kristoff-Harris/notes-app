@@ -10,6 +10,8 @@ if (command === 'add'){
     console.log('Adding note!');
 } else if (command === 'remove'){
     console.log("deleting note!")
+} else {
+    console.log("not a valid choice")
 }
 
 //console.log(myNote);
