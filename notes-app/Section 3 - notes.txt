@@ -1,0 +1,17 @@
+npm -v // for version 
+
+npm init // initializes NPM 
+
+Dont mess wi node_modules // it's meant to be managed by node
+
+-g  makes a package availible globally (any proj can use it) (usually we use this in the terminal)
+Usually global pakcages are installed as SU
+
+For nodemon in windows, we can run ps as an admin
+to make scripts able to be run in windows we need the following..
+
+(Running as admin Powershell)
+`Set-ExecutionPolicy Unrestricted`
+
+Run Nodemon with 
+`nodemon app.js`

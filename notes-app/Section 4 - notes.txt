@@ -1,0 +1,6 @@
+https://codeburst.io/javascript-double-equals-vs-triple-equals-61d4ce5a121a
+=== is strict equality (both type and value must be the same)
+
+5 === 5 // True
+77 === '77'         // False (Number vs string)
+'cat' === 'dog'     // False (both strings but have diff values)
